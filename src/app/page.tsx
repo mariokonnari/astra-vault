@@ -2,6 +2,7 @@ import Scene from "@/components/Scene";
 import Hero from "@/components/Hero";
 import FeatureCards from "@/components/FeatureCards";
 import ProjectTimeline from "@/components/ProjectTimeline";
+import StatsStrip from "@/components/StatsStrip";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero />
       <FeatureCards />
       <ProjectTimeline />
+      <StatsStrip />
     </>
   );
 }
